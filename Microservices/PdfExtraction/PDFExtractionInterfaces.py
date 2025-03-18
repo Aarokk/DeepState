@@ -8,7 +8,7 @@ class PDFExtractionInterfaces(ABC):
         sections_content[] -> Array composed of six booleans
         logic_selectors_content[] -> Array composed of four strings representing the logic operators
         date_content[] -> Array composed of two strings representing the start and end dates
-        date_content -> String representing the number of results per page desired
+        results_per_page -> String representing the number of results per page desired
         date_order_by -> String representing the order desired by date
     """
 
