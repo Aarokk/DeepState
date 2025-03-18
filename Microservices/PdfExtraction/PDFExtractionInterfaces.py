@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
-class PDFExtractionInterfaces(ABC):
 
+class PDFExtractionInterfaces(ABC):
     """
         The class that implements the following methods should receive the following parameters from the GUI:
         search_fields_content[] -> Array composed of four strings
